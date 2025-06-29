@@ -1,0 +1,103 @@
+@media only screen and (max-width: 600px) {
+  .min-wrapper {
+    padding: 15px;
+  }
+  .page1 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+  }
+  .pageLeft {
+    width: 100%;
+    font-size: 1.4rem;
+  }
+
+  .pageRight {
+    display: none;
+  }
+
+  .icons {
+    padding-left: 20px;
+  }
+
+  .page2 {
+    flex-direction: column;
+  }
+
+  .page2Left {
+    margin-top: 30px;
+    flex-direction: column;
+  }
+
+  .dishOne {
+    padding: 50px;
+  }
+
+  .dishTwo {
+    padding: 50px;
+  }
+
+  .page2Right {
+    width: 100%;
+    margin-top: 20px;
+    font-size: 1.2rem;
+  }
+
+  .page3 {
+    flex-direction: column;
+  }
+
+  .page3Right img {
+    height: 50vh;
+    margin-top: 10px;
+    margin-right: 0px;
+  }
+
+  .page4 {
+    flex-direction: column;
+  }
+
+  .page4Left {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .page4Left .innerRight {
+    width: 110%;
+  }
+
+  .page4Left .innerLeft {
+    width: 110%;
+  }
+
+  .page4Right {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+  }
+
+  .page5 h2 {
+    text-align: center;
+  }
+
+  .page5 .contact {
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+  }
+
+  .about {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about .icon {
+    margin-bottom: 30px;
+  }
+
+  .company {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+}
